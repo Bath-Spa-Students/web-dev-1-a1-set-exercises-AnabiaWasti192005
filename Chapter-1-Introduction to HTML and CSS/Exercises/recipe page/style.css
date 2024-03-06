@@ -1,0 +1,13 @@
+body{
+    padding: 0%;
+}
+.img-style{  
+   width: 800px;
+   height: 800px;
+   background-image: url(delicious\ garlic\ bread.jpg);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: center;
+   
+
+}
