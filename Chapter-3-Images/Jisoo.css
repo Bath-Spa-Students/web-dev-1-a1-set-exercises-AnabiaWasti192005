@@ -1,0 +1,26 @@
+body{
+background-color: pink;
+}
+div{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+/* Center align images using text align */
+.brightness{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* This filter has been used for image brightness */
+.brightness img{
+     filter:brightness(250%)
+
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
