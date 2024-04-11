@@ -1,0 +1,18 @@
+#btn {
+    text-decoration-line: underline;
+    font-family:Arial, Helvetica, sans-serif
+    margin-top: 30px;
+}
+
+#btn button {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(226, 71, 226);
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+#btn button:hover {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(233, 35, 101);
+    align-self: right;
+}

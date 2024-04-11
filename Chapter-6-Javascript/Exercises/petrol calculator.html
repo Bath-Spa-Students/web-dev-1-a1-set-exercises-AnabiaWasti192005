@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="petrol calculator.css"><script src="petrol calculator.js"></script>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1><center> Petrol---Calculator</center></h1>
+    <div class="wrapper">
+        <div>
+            
+            <p><center>Petrol price per litre</center></p>
+            <center>
+            <input id="Petrol_Price" placeholder="1.72" type="number"></center>
+        </div>
+        <div>
+            <p><center>Litre</center></p>
+            <center><input id="liters" placeholder="0" type="number"></center>
+        </div>
+    </div>
+    <!-- Button to calculate the amount -->
+    <div id="btn">
+    <center><button onclick="calculate()">Total Amount</button></center>
+<center><p>Total Amount</p></center>
+    <center><h2 id="totalAmount"   var totalAmount = petrolPrice * liters;></h2></center>
+</div>
+
+    <!-- Your JavaScript function -->
+    <script>
+        function calculate() {
+            var petrolPrice = parseFloat(document.getElementById("Petrol_Price").value);
+            var liters = parseFloat(document.getElementById("liters").value);
+            var totalAmount = petrolPrice * liters;
+
+            document.getElementById("totalAmount").innerText = "Total Amount: $" + totalAmount.toFixed(2);
+        }
+    </script>
+</body>
+</html>
