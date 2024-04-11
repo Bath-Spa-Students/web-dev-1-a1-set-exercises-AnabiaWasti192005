@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;/make image align at the center/
+    margin: 0; /* Remove default margin */
+}
+
+
+
